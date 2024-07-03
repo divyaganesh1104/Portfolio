@@ -166,6 +166,9 @@ nav #open, nav #close{
     font-weight: 600;
     color:white;
 }
+.ob2 {
+    padding-top: 35px;
+}
 .ob2 div a, header a{
     color:white;
     text-decoration: none;
@@ -353,7 +356,7 @@ nav #open, nav #close{
     font-weight: normal;
     text-align: center;
 }
-@media (max-width:800px){
+@media (max-width:990px){
     nav ul{
         position: fixed;
         top:49px;
@@ -433,6 +436,9 @@ nav #open, nav #close{
     line-height: 20px;
     margin: 0 -30px;
    
+}
+.ob2 {
+    padding-top: 0px;
 }
 .ob1 h1 {
     font-size: 25px;
@@ -568,4 +574,9 @@ margin-left: 100px;
     padding-bottom: 30px;
     
 }
+}
+@media(max-width:1200px){
+    .ob1 p{
+        font-size: 16px;
+    }
 }
